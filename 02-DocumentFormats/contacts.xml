@@ -22,4 +22,14 @@
 		<phone type="work">6660611</phone>
 		<notes>my best friend</notes>
 	</contact>
+	<contact>
+		<name>Karol</name>
+		<name>Marek</name>
+		<surname>Janik</surname>
+		<email type="personal">fikcyjne@gmail.com</email>
+		<email type="business">Karol.Janik@CompLand.pl</email>
+		<phone type="home">111222</phone>
+		<phone type="work">333444</phone>
+		<notes>notatki</notes>
+	</contact>
 </contacts>

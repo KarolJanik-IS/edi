@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Films>
+	<film genre="Thriller, Akcja" year="2014">
+		<title>John Wick</title>
+		<personal_rating>8,5/10</personal_rating>
+		<director>David Leitch, Chad Stahelski</director>
+			<actors>
+				<actor>Keanu Reeves</actor>
+			</actors>
+	</film>
+	<film genre="Dramat, Kryminał" year="2019">
+		<title>Joker</title>
+		<personal_rating>7/10</personal_rating>
+		<director>Todd Phillips, Scott Silver</director>
+			<actors>
+				<actor>Joaquin Phoenix</actor>
+			</actors>
+	</film>
+	<film genre="Dramat, Gangsterski" year="1972">
+		<title>Ojciec chrzestny</title>
+		<personal_rating>9/10</personal_rating>
+		<director>Francis Ford Coppola</director>
+			<actors>
+				<actor>Marlon Brando</actor>
+				<actor>Al Pacino</actor>
+			</actors>
+	</film>
+	<film genre="Przygodowy, Sci-Fi" year="1977">
+		<title>Gwiezdne wojny: Część IV - Nowa nadzieja</title>
+		<personal_rating>8,5/10</personal_rating>
+		<director>George Lucas</director>
+			<actors>
+				<actor>Mark Hamill</actor>
+				<actor>Harrison Ford</actor>
+				<actor>Carrie Fisher</actor>
+			</actors>
+	</film>
+	<film genre="Komedia romantyczna" year="1993">
+		<title>Dzień świstaka</title>
+		<personal_rating>9/10</personal_rating>
+		<director>Harold Ramis</director>
+			<actors>
+				<actor>Bill Murray</actor>
+				<actor>Andie MacDowell</actor>
+			</actors>
+	</film>
+
+</Films>
