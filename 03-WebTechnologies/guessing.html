@@ -8,6 +8,14 @@
 		<h1>Try to guess</h1>
 
 		<script>
+			var userNumber = prompt("Zgadnij numer pomiędzy 1 a 5")
+			var losowa = Math.floor(Math.random()*5)+1
+			console.log(losowa)
+			if(userNumber == losowa){
+				alert("Good Work")
+			}else{
+				alert("Sorry")
+			}
 			// read user's number (popup window)
 			
 			// create a random number

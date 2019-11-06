@@ -1,19 +1,35 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>Display pattern</title>
-		<meta charset="UTF-8">
-	</head>
-	<body>
-		<h1>Display pattern</h1>
 
-		<script>
-			/* compete JavaScript code ...
-			for (i = 1; i < ...) {
-				// use 'repeat' function to display '*'
-			}
+<head>
+	<title>Display pattern</title>
+	<meta charset="UTF-8">
+</head>
+
+<body>
+	<h1>Display pattern</h1>
+	<div id="main"></div>
+
+	<script>
+		/* compete JavaScript code ...
+		for (i = 1; i < ...) {
+			// use 'repeat' function to display '*'
+		}
+		}
+		
+		*/
+		ma = document.getElementById("main")
+		//console.log(ma.innerHTML)
+
+		s = "*"
+		for (var i = 1; i < 6; i++) {
+			console.log(s.repeat(i))
+			ma.innerHTML += "<p>"+s.repeat(i)+"</p>"
+
+		}
 			
-			*/
-		</script>
-	</body>
+
+	</script>
+</body>
+
 </html>
