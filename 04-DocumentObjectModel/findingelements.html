@@ -12,7 +12,19 @@
 
     <script>
         // a JavaScript code here ...
+        h = document.getElementsByTagName("h1")
+        h = h[0]
+        i = document.getElementById("someTest")
+        c = document.getElementsByClassName("important")
+        p = document.getElementsByTagName("p")
+        console.log(h.innerHTML)
+        console.log(i.innerHTML)
+        console.log(c[0].innerHTML)
+        //console.log(p)
+        for(var i=0;i<p.length;i++){
+            console.log(p[i].innerHTML)
 
+        }
     </script>
 </body>
 

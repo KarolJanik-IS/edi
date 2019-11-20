@@ -5,8 +5,18 @@
 		<meta charset="UTF-8">
 	</head>
 	<body>
-		<h3>Sticks and stones may break my bones, but words will never harm me.</h3>
+		<h3 id="main">Sticks and stones may break my bones, but words will never harm me.</h3>
 		<script>
+			h = document.getElementById("main")
+			h.addEventListener("mouseover", function(){
+				this.innerText = "Kije i kamienie kości mi połamią, ale twoje słowa nigdy mnie nie zranią"
+				console.log(this)
+			});
+			h.addEventListener("mouseout", function(){
+				this.innerText = "Sticks and stones may break my bones, but words will never harm me."
+				console.log(this)
+			});
+			//console.log(h)
 			// a JavaScript code here ...
 			
 			// Translation:

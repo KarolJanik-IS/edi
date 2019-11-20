@@ -20,6 +20,36 @@
 		and psychedelic music.</p>
 		
 		<script>
+			var h = document.getElementsByTagName("h1")[0]
+			console.log(h)
+			h.addEventListener("click",function(){
+				h.innerText = h.innerText +"(Part 2)" 
+			})
+			var h33 = document.getElementsByTagName("h3")[0]
+			h33.addEventListener("click",function(){
+				document.getElementsByTagName("p")[1].style.visibility = "visible"
+			})
+			var p = document.getElementsByTagName("p")[0]
+			p.addEventListener("click",function(){
+				//console.log(this)
+				this.style.fontStyle = "italic"
+				//console.log(this.style.fontStyle)
+			})
+			document.addEventListener("dblclick",function(){
+				//console.log(this)
+				this.body.style.backgroundColor = "yellow"
+			})
+			document.addEventListener("copy",function(){
+				//console.log(this)
+				window.alert("Copyright message")
+			})
+			document.getElementsByTagName("p")[1].addEventListener("click",function(){
+				var img = document.createElement("img")
+				img.src = "https://upload.wikimedia.org/wikipedia/en/d/d6/Pink_Floyd_-_all_members.jpg"
+				document.body.append(img)
+			})
+			//https://upload.wikimedia.org/wikipedia/en/d/d6/Pink_Floyd_-_all_members.jpg
+
 			// a JavaScript code here ...
 			
 		</script>

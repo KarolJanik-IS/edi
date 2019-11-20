@@ -23,6 +23,24 @@
 		<textarea rows="15" cols="50"></textarea><br>
 		
 		<script>
+			var i = true
+			document.getElementsByTagName("textarea")[0].addEventListener("input",function(){
+				if(i){
+					console.log(i)
+					i = false
+					setTimeout(function(){ 
+						var p = document.createElement("p")
+						var st = document.getElementsByTagName("textarea")[0].value
+						console.log(st)
+						console.log(st.length)
+						
+						console.log(st.split(" "))
+						i = true
+						p.innerText = "Liczba słów: " + st.split(" ").length + " Liczba symboli: " + st.length
+						document.body.appendChild(p)
+					}, 3000)
+				}
+			})
 			// a JavaScript code here ...
 			
 		</script>
